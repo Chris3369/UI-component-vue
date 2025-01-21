@@ -23,6 +23,12 @@ let router = createRouter({
 
         },
         {
+            path: '/debounce',
+            name: 'debounce',
+            component: () => import('../views/Debounce.vue')
+
+        },
+        {
             path: '/404',
             name: 'notfound',
             component: () => import('../views/NotFound.vue')
