@@ -17,6 +17,12 @@ let router = createRouter({
 
         },
         {
+            path: '/modal',
+            name: 'modal',
+            component: () => import('../views/ModalDemo.vue')
+
+        },
+        {
             path: '/404',
             name: 'notfound',
             component: () => import('../views/NotFound.vue')
