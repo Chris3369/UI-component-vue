@@ -1,9 +1,11 @@
 <template>
-	<router-view></router-view>
+	<h1>404</h1>
 </template>
-
+	
 <script setup lang='ts'>
-
+	
 </script>
-
-<style></style>
+	
+<style>
+	
+</style>

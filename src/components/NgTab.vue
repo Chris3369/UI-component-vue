@@ -1,13 +1,13 @@
 <script setup>
 import { ref } from 'vue'
-import Home from './Home.vue'
-import Posts from './Posts.vue'
+import Component1 from './Component1.vue'
+import Component2 from './Component2.vue'
 
-const currentTab = ref('Home')
+const currentTab = ref('Component1')
 
 const tabs = {
-  Home,
-  Posts
+  Component1,
+  Component2
 }
 
 </script>
